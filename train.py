@@ -9,8 +9,8 @@ from tqdm import tqdm
 from common import build_vocab, TextClassifier, pad_sequence, encode, EMBED_DIM, NUM_CLASS
 
 # Configuration
-train_file = 'path/to/train.csv'
-dev_file = 'path/to/dev.csv'
+train_file = 'train_split.csv'
+dev_file = 'dev_split.csv'
 batch_size = 64
 max_length = 250
 learning_rate = 1e-3
